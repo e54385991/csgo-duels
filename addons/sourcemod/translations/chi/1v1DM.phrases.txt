@@ -3,13 +3,13 @@
 	"Rifle:"
 	{
 	  "#format"	"{1:s}"
-		"chi"		"主武器:{1}"
+		"chi"		"主武器: {1}"
 	}
 	
 	"Pistol:"
 	{
 	  "#format"	"{1:s}"
-		"chi"		"手枪:{1}"
+		"chi"		"手枪: {1}"
 	}
 	
 	"Kill sound: On"
@@ -55,6 +55,81 @@
 	"Weapon preferences"
 	{
 		"chi"		"武器偏好设置"
+	}
+	
+		
+	"Not enogh players to start challenge"
+	{
+		"#format"	"{1:i}"
+		"chi"		"至少需要 {1} 个玩家 才能开始挑战!"
+	}
+	
+	"Your already in challenge"
+	{
+		"chi"		"你已经在挑战, 输入 !stop 停止挑战玩家"
+	}
+	
+	"Player not found"
+	{
+		"chi"		"没有找到玩家!"
+	}
+	
+	"There are several players with this name"
+	{
+		"chi"		"对不起,有太多的玩家同名!!"
+	}
+	
+	"You cant select yourself as enemy"
+	{
+		"chi"		"你不能选择自己为挑战对象!"
+	}
+	
+	"Select opponent"
+	{
+		"chi"		"选择对手"
+	}
+	
+	"Opponent left the game"
+	{
+		"chi"		"对不起，你的对手离开了比赛"
+	}
+	
+	"Opponent in challenge"
+	{
+		"chi"		"对不起,你慢了,他已经在挑战其他玩家中了!"
+	}
+	
+	"Challenge is sent"
+	{
+		"#format"	"{1:s}"
+		"chi"		"挑战请求发送到 {1}"
+	}
+	
+	"Player invited you to challenge"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{1} 邀请你单挑 输入!accept 以接受."
+	}
+	
+	"Invite expired"
+	{
+		"chi" 		"对不起, 邀请单挑已过期!"
+	}
+	
+	"No invites"
+	{
+		"chi"		"对不起，你没有任何单挑邀请!"
+	}
+	
+	"You left challenge"
+	{
+		"chi"		"你离开了挑战!"
+	}
+	
+	"Opponent left the challenge"
+	{
+		"#format"	"{1:s}"
+		"chi"		"你的对手 {1} 开了挑战！"
 	}
 	
 }
